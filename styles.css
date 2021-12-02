@@ -1,0 +1,26 @@
+#container {
+ width: 100%;
+ height: 100%;
+ background-color: #967977;
+}
+
+#title {
+ text-align: center;
+ padding-top: 20px;
+ font-size: 50px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container > #question {
+    align-content: center;
+    justify-content: center;
+}
+
+input::placeholder {
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+    opacity: 1;
+    text-align: center;
+  }
+
